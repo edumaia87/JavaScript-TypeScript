@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        label {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="get" target="_blank">
+        <p>Meu formulário</p>
+        <p>
+            <label for="name">Nome: </label>
+            <input type="text" id="name" name="name-input" placeholder="Seu nome" required/>
+        </p>
+
+        <p>
+            <label for="password">Senha: </label>
+            <input type="password" id="password" name="psswd-input" placeholder="Sua senha" />
+        </p>
+
+        <p>
+            <label for="dev">Sou um dev</label>
+            <input type="checkbox" id="dev" name="dev" value="sim" checked/>
+        </p>
+
+        <p>
+            Gênero:<br><br>
+            <label for="male">Masculino</label>
+            <input type="radio" id="male" name="gender" value="masculino"/>
+
+            <label for="female">Feminino</label>
+            <input type="radio" id="female" name="gender" value="feminino"/>
+
+            <label for="other">Outro</label>
+            <input type="radio" id="other" name="gender" value="other"/>
+        </p>
+
+        <p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Resetar</button>
+        </p>
+
+        <p>
+            <label for="date">Data:</label>
+            <input type="date" id="date" name="date" value="2022-08-30"/>
+        </p>
+    </form>
+</body>
+</html>
