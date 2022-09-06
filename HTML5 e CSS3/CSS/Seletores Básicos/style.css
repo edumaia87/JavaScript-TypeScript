@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Seletores de pais e filhos */
+
+.color-red {
+    color: crimson;
+}
+
+/* .main-content h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+} */
+
+.main-content .heading {
+    font-style: italic;
+    color: cadetblue;
+}
+
+.main-content .paragraph {
+    margin-top: 7px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* div.main-content .heading {
+    font-style: oblique;
+    color: deeppink;
+} */
+
+/* body.error div.main-content h2.heading {
+    font-style: italic;
+    color: red;
+} */
+
+div {
+    color: initial;
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+.father {
+    margin-top: 20px;
+}
+
+.father .child {
+    color: red;
+}
+
+/* .father > .child > .child {
+    color: red;
+} */
+
+/* Seletores de irmãos */
+
+.father h1+p {
+    color: darkcyan;
+}
+
+.father h1~p {
+    color: darkcyan;
+}
+
+.father p+h1 {
+    color: green;
+}
+
+/* [my-attribute="value"] {
+    color: red;
+} */
