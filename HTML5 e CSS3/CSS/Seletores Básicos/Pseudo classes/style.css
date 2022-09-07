@@ -63,3 +63,26 @@ p:not(.meio) {
     font-family:Arial, Helvetica, sans-serif;
     color:blue;
 }
+
+ul li:nth-child(2) { /*Por índice*/
+    background-color: rebeccapurple;
+}
+
+ul li:nth-child(odd) { /* Por ímpares */
+    background-color: green;
+}
+
+ul li:nth-child(even) { /* Por pares */
+    background-color: orange;
+}
+
+ul li:nth-child(2n) { /* A cada n índices */
+    background-color: gainsboro;
+}
+
+ul li:nth-child(2n+4) { /* A cada n índices */
+    background-color: gold;
+}
+
+
+

@@ -1,0 +1,46 @@
+ul li {
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+ul li::after {
+    content: ' | ';
+
+}
+/* ul li::after {
+    content: ' - ';
+    
+}
+
+ul li::before {
+    content: ' - ';
+} */
+
+p {
+    font-size: 17px;
+}
+
+p::first-letter {
+    font-size: 70px;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+p::first-line {
+    background: darkturquoise;
+}
+
+p::selection {
+    background: #000;
+    color: #FFF; 
+}
+
+.input-field input {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form-field::placeholder {
+    color: blue;
+}
