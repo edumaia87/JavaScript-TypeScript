@@ -67,6 +67,27 @@ div {
     color: green;
 }
 
-/* [my-attribute="value"] {
+/* Seletores de Atributos */
+
+/* 
+[my-attribute="value"] {
     color: red;
-} */
+}
+
+[my-attribute~="value"] { tenha pelo menos o valor especificado na lista de valores
+   
+    color: red;
+} 
+[my-attribute|="value"] { Primeiro valor seguido por um traço 
+    color: red;
+} 
+[my-attribute^="val"] { Se o valor começa com o que está sendo pedido. 
+    color: red;
+} 
+[my-attribute$="ue"] { Se o valor termina com o que está sendo pedido. 
+    color: red;
+} 
+[my-attribute*="l"] { Se o valor contém em alguma parte o que está sendo pedido. 
+    color: red;
+} 
+*/
